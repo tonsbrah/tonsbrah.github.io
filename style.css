@@ -1,0 +1,119 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    background-image: url(bg.jpg);
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+    padding: 0px;
+  }
+    
+  h1{
+    padding-bottom: 10px;
+    text-align: center;
+    color: silver;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+    
+  section {
+    max-width: 650px;    
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 60px
+  }
+  
+  footer {
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    height: 60px;
+    position: absolute;
+    
+    bottom: 0;
+    width: 100%;
+  }
+
+  .centertext {
+    text-align: center;
+  }
+
+  .centertext2{
+    text-align: center;
+    color: black;
+  }
+
+  h2 {
+    padding-top: 0px;
+    text-align: center;
+    color: beige;
+  }
+  
+  h3 {   
+    padding-top: 0px;
+    text-align: left;
+  }
+  
+  .p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: deeppink;
+    font-style: italic;
+  }
+
+  .p2{
+    font-family: monospace;
+    font-size: 30px;
+    color: darkgreen;
+    font-style: italic
+  }
+
+  .p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: brown;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    font-weight: bold;
+  }
+
+  .li{
+    font-family: monospace;
+    font-size: 20px;
+    color: antiquewhite ;
+    font-style: italic;
+  }
+
+  .li2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: silver ;
+    font-style: italic;
+  }
+  
+  
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    padding: 5px;   
+}
+
+.centermain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    padding: 5px;
+}
